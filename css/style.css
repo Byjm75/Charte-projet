@@ -1,0 +1,15 @@
+body{
+    background-color:whitesmoke;
+}
+
+header{
+    background-color:white;
+}
+
+ul li{
+    list-style-image : url(/images/bullet.png);
+}
+/* phil ici -début-*/
+
+
+/*phil fin -fin-*/
