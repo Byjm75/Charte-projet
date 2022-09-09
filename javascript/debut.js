@@ -28,5 +28,5 @@ if(random = 1) {
 
   console.log('deux')
 alert(random);
-}
+
 
