@@ -1,0 +1,4 @@
+/*affiche le bullet en guise de puce */
+ul li{
+    list-style-image: url(/images/bullet.png) ;
+}
