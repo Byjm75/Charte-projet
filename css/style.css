@@ -1,9 +1,19 @@
 body{
-    background-color:whitesmoke;
+    background-color:rgb(236, 236, 230);
 }
 
 header{
     background-color:white;
+    border: double;
+    border-radius: 0 120px 0 0;
+}
+
+h4{
+    font-weight: bold;
+}
+
+b{
+    font-size: 2em;
 }
 
 ul li{
@@ -22,6 +32,30 @@ em{
     color: red;
     font-size: 1.3em;
 }
+
+.row{
+    border: double;             /*les bords des cadres : double*/
+    border-radius: 10px;        /*les coins sont arrondis*/
+    width: 100%;                /*Largeur de la zone de texte*/
+    margin: 1%;                 /*hauteur du cadre entourant la zone de texte*/
+    padding: 5%;                /*hauteur du cadre par rapport au texte*/
+
+}
+
+img{
+    position: relative;
+    left: 25%;
+    width: 200px;
+    height: auto;
+}
+
+p:hover{                    /*pseudo-classe ':hover' active quelquechose au survol du paragraphe par la souris*/
+    font-size: larger;
+    color: red;
+    text-align: center;
+}
+
+
 /* phil ici -début-*/
 
 

@@ -23,8 +23,7 @@
   <link rel="stylesheet" href="./css/skeleton.css">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="icon" href="images/favicon.png" />  <!--icone sur l'onglet de la page-->
-  <script type="text/javascript" src="/javascript/debut.js"></script>
-
+  
   <!-- Liaisons du fichier JS si vous faites le bonus
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <!-- TODO -->
@@ -38,49 +37,40 @@
 <body>
   <header class="header">
     <div class="container">
+      <div class="centrage">
       <h4>
       ▶▶▶ Promo JustToDev - Prestation SIMPLON pour SNCF 2022 ◀◀◀
       </h4>
-      <p>[ <em>no pain</em>, ... no code ]</p>
+
+      <p><b>[</b> <em>no pain</em>, ... no code <b>]</b></p>   <!-- Les crochets ont du style, cependant, a-t'on le droit de prendre des balises
+                                                               <b></b> ? -->
     </div>
   </header>
 
 
   <!-- Structure principale de la page
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
-  <button>Choix au hasard d'un(e) apprennant(e)</button>
-  <!--La fonction Math.random() renvoie un nombre flottant pseudo-aléatoire compris dans l'intervalle [0, 1[ (ce qui signifie que 0 
-    est compris dans l'intervalle mais que 1 en est exclu) selon une distribution approximativement uniforme sur cet intervalle. 
-    Ce nombre peut ensuite être multiplié afin de couvrir un autre intervalle.-->
-    <form>
-      <input type="button" value="Démarrer la machine">
-    </form>
-    <p>La machine est arrêtée.</p>
-
-
-
-
-
-    
+  <div class="centrage"><img src="images/logo.png" titre="Ceci est notre premier Brief." alt="logo entreprise" /></div>
 
   <main class="container">
 
     <div class="row">
       <div class="column">
         <h4>Ceci est notre charte de promo</h4>
-        <p>Ces règles nous unissent et ont été <strong>inventées</strong> et sont <strong>officieuses</strong> ! Les voici et prenez plaisir à les parcourir !
-        <blockquote>(💬 Par contre, même si elles sont officieuses, <strong>il faut les appliquer</strong>, non ?)</blockquote></p>
+        <p>Ces règles nous unissent ; elles ont été <strong>inventées</strong> pour faire des tests. Cependant, elles restent pour le moins
+           <strong>officieuses</strong> !<br>
+           Les voici et prenez plaisir à les parcourir !
+        <blockquote>(💬 Par contre, même si elles sont officieuses, <strong>il faut les appliquer</strong>, non ?  <span>🤔</span>)</blockquote></p>
       </div>
     </div>
 
 
     <div class="row">
       <div class="column">
-        <h4>Réussite collective</h4>
+        <h4 class="reussite" title="Nous allons tous réussir car on va tout défourailler !!!">Réussite collective</h4>
         <ul>
           <li>Si j'ai fini, j'aide les autres.</li>  
-          <li>En cas de difficulté, je n'hésite pas à solliciter le groupe, après avoir suffisamment cherché de mon côté avant 
+          <li>En cas de difficulté, je n'hésite pas à solliciter le groupe, après avoir suffisamment cherché de mon côté avant<br> 
             (le point ayant été difficile à un moment donné sera à retravailler par la suite).</li>
           <li>Je pratique la critique qui ne se doit d'être que <strong>positive et constructive</strong>.</li> 
           <li>Je partage avec le groupe d'apprenants mes sources, bonnes pratiques, trucs et astuces.</li> 
@@ -98,7 +88,7 @@
 
     <div class="row">
       <div class="column">
-        <h4>Vivre ensemble</h4>
+        <h4 class="ensemble" title="Nous sommes un groupe soudé 😀">Vivre ensemble</h4>
         <ul>
           <li>Je fais en sorte qu'il n'y ait pas de bruit parasite (téléphone en silencieux, écouteurs, tapotage de pied sur le sol, ...) <span>🤐</span>.</li>  
           <li>Je fais attention aux affaires des autres quand ils sont absents.</li>
@@ -110,10 +100,10 @@
     
     <div class="row">
       <div class="column">
-        <h4>Spécial COVID-19</h4>
+        <h4 class="covid" title="Le COVID est encore présent malgré tout, alors prudence !!!">Spécial COVID-19</h4>
         <ul>
-          <li>Je me dois d'alerter en cas de symptômes liés au COVID-19 (La tension qui monte 😤, 
-            le stress qui augmente parce que le brief n'est pas rendu à temps 😱, le mal de crâne à la fin de la journée 😨, 
+          <li>Je me dois d'alerter en cas de symptômes liés au COVID-19 (La tension qui monte 😤, ...<br>
+            le stress qui augmente parce que le brief n'est pas rendu à temps 😱, ...<br>le mal de crâne à la fin de la journée 😨, 
             ... ne sont peut-être pas dûs au COVID-19 🤢) ... 🤔</li>  
           <li>Je respecte le protocole sanitaire en vigueur 😷 si l'un de nous se trouve en situation délicate.</li>   
         </ul>
@@ -122,14 +112,25 @@
 
     <div class="row">
       <div class="column">
-        <h4>Pour le fun</h4>
+        <h4 class="fun" title="Yooooooo, c'est trop cool ... 😎">Pour le fun</h4>
         <ul>
           <li>Je ferai en sorte de dé-stresser au maximum 😂🤣.</li>  
           <li>Si l'étape 1 n'est pas possible à un moment donné, se contenter de valider l'étape 3.</li>
-          <li>Revenir à l'étape 1. </li>     
+          <li>Revenir à l'étape 1 en écoutant de la musique en boucle ...
+            <div>
+              <audio src="/son/VexentoSpark.mp3" title="Just a moment of fun... Musique libre de droit extraite du site https://www.auboutdufil.com/index.php?id=347"
+                controls
+                loop></audio>     <!--attribut 'loop' pour une lecture en boucle-->
+                <blockquote>Veuillez mettre à jour votre navigateur !</blockquote>	<!-- Suivant les navigateurs, il se pourrait qu'on ne puisse pas lire
+                                                                                    le contenu audio, ... d'où la nécessité de mettre à jour le 
+                                                                                    navigateur ! -->
+              </audio>
+            </div>
+          </li>     
         </ul>
       </div>
     </div>
+
     <br>
 
     <section>
