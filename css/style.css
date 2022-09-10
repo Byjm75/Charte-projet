@@ -51,6 +51,7 @@ img{
     width: 20%;
     height: auto;
     transform: rotate(-15deg);
+    opacity: 0.5;
 }
 
 p:hover{                    /*pseudo-classe ':hover' active quelquechose au survol du paragraphe par la souris*/
