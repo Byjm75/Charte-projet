@@ -9,6 +9,19 @@ header{
 ul li{
     list-style-image : url(/images/bullet.png);
 }
+
+span{
+    font-size: 2em;
+}
+
+blockquote{
+    font-size: 0.7em;
+}
+
+em{
+    color: red;
+    font-size: 1.3em;
+}
 /* phil ici -début-*/
 
 

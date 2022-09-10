@@ -23,7 +23,7 @@
   <link rel="stylesheet" href="./css/skeleton.css">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="icon" href="images/favicon.png" />  <!--icone sur l'onglet de la page-->
-  <script src="/javascript/debut.js"></script>
+  <script type="text/javascript" src="/javascript/debut.js"></script>
 
   <!-- Liaisons du fichier JS si vous faites le bonus
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -39,9 +39,9 @@
   <header class="header">
     <div class="container">
       <h4>
-        Promo JustToDev - pour SNCF 2022
+      ▶▶▶ Promo JustToDev - Prestation SIMPLON pour SNCF 2022 ◀◀◀
       </h4>
-      <p>[ no pain, ... <em>no code</em> ]</p>
+      <p>[ <em>no pain</em>, ... no code ]</p>
     </div>
   </header>
 
@@ -53,13 +53,24 @@
   <!--La fonction Math.random() renvoie un nombre flottant pseudo-aléatoire compris dans l'intervalle [0, 1[ (ce qui signifie que 0 
     est compris dans l'intervalle mais que 1 en est exclu) selon une distribution approximativement uniforme sur cet intervalle. 
     Ce nombre peut ensuite être multiplié afin de couvrir un autre intervalle.-->
+    <form>
+      <input type="button" value="Démarrer la machine">
+    </form>
+    <p>La machine est arrêtée.</p>
+
+
+
+
+
+    
 
   <main class="container">
 
     <div class="row">
       <div class="column">
         <h4>Ceci est notre charte de promo</h4>
-        <p>Ces règles nous unissent et ont été <strong>inventées</strong> et sont <strong>officieuses</strong> ! Les voici et prenez plaisir à les parcourir !</p>
+        <p>Ces règles nous unissent et ont été <strong>inventées</strong> et sont <strong>officieuses</strong> ! Les voici et prenez plaisir à les parcourir !
+        <blockquote>(💬 Par contre, même si elles sont officieuses, <strong>il faut les appliquer</strong>, non ?)</blockquote></p>
       </div>
     </div>
 
@@ -69,16 +80,18 @@
         <h4>Réussite collective</h4>
         <ul>
           <li>Si j'ai fini, j'aide les autres.</li>  
-          <li>En cas de difficulté, je n'hésite pas à solliciter le groupe, après avoir suffisamment cherché de mon côté avant (le point ayant été difficile sera retravailler).</li>
-          <li>Je pratique la critique qui ne se doit d'être que <strong>positive</strong>.</li> 
-          <li>Je partage avec un apprennant mes sources, bonnes pratiques, trucs et astuces.</li> 
-          <li>Je reste positif et j'en parle aux autres en cas de soucis</li>
-          <li>Ne pas toujours faire faire des groupes par affinité, et faire des efforts même si on ne s'entend pas plus que ça avec l'autre, aller vers personnes timides et leur laisser la parole dans les travaux de groupe.</li>      
-          <li>Integration des collégues, ouverture d'esprit et bienveillance</li>
-          <li>Je partage mes sources, bonnes pratiques, trucs et astuces</li>
-          <li>J'aide mes collégues et partage mes informations</li>
-          <li>En cas de difficulté, je n'hésite pas à solliciter le groupe, à condition d'avoir suffisamment fait mes recherches en autonomie, je demande de l'aide et je m'engage à approfondir le sujet par moi-même</li>
-          <li>Je pratique la critique positive</li>
+          <li>En cas de difficulté, je n'hésite pas à solliciter le groupe, après avoir suffisamment cherché de mon côté avant 
+            (le point ayant été difficile à un moment donné sera à retravailler par la suite).</li>
+          <li>Je pratique la critique qui ne se doit d'être que <strong>positive et constructive</strong>.</li> 
+          <li>Je partage avec le groupe d'apprenants mes sources, bonnes pratiques, trucs et astuces.</li> 
+          <li>Je reste positif et j'en parle aux autres en cas de soucis.</li>
+          <li>Ne pas toujours faire des groupes par affinité, et faire des efforts même si l'on ne s'entend pas plus que ça avec l'autre, 
+            aller vers les personnes timides et leur laisser la parole dans les travaux de groupe.</li>      
+          <li>Intégration des collégues, ouverture d'esprit et bienveillance seront nos maître-mots.</li>
+          <li>J'aide mes collégues et partage mes informations.</li>                         <!--Il y a redondance avec la ligne 4, faut-il supprimer une des lignes ???-->
+          <li>En cas de difficulté, je n'hésite pas à solliciter le groupe, à condition d'avoir suffisamment fait mes recherches en autonomie,
+             en demandant de l'aide et je m'engage à approfondir le sujet par moi-même.</li>  <!--Il y a redondance avec la ligne 2, faut-il supprimer une des lignes ???-->
+          <li>Au risque de se répéter : Je pratique la critique positive</li>               <!--Il y a redondance avec la ligne 3, faut-il supprimer une des lignes ???-->
         </ul>
       </div>
     </div>
@@ -87,9 +100,10 @@
       <div class="column">
         <h4>Vivre ensemble</h4>
         <ul>
-          <li>Je fais en sorte qu'il n'y ait pas de bruit parasite (téléphone en silencieux, écouteurs, tapotage de pied sur le sol, ...)</li>  
+          <li>Je fais en sorte qu'il n'y ait pas de bruit parasite (téléphone en silencieux, écouteurs, tapotage de pied sur le sol, ...) <span>🤐</span>.</li>  
           <li>Je fais attention aux affaires des autres quand ils sont absents.</li>
-          <li>Je reste moi-même ... même quand ça ne va plus.</li>     
+          <li>Je fais attention aux affaires des autres même quand ils là ... donc je fais attention tout le temps en fait 😁.</li>
+          <li>Je reste moi-même ... même quand ça ne va plus (que la zenitude soit avec toi 👌).</li>     
         </ul>
       </div>
     </div>
@@ -98,8 +112,10 @@
       <div class="column">
         <h4>Spécial COVID-19</h4>
         <ul>
-          <li>Je me dois d'alerter en cas de maladie.</li>  
-          <li>Je respect le protocole sanitaire en vigueur.</li>   
+          <li>Je me dois d'alerter en cas de symptômes liés au COVID-19 (La tension qui monte 😤, 
+            le stress qui augmente parce que le brief n'est pas rendu à temps 😱, le mal de crâne à la fin de la journée 😨, 
+            ... ne sont peut-être pas dûs au COVID-19 🤢) ... 🤔</li>  
+          <li>Je respecte le protocole sanitaire en vigueur 😷 si l'un de nous se trouve en situation délicate.</li>   
         </ul>
       </div>
     </div>
@@ -108,9 +124,9 @@
       <div class="column">
         <h4>Pour le fun</h4>
         <ul>
-          <li>Je ferai en sorte de déstresser au maximum.</li>  
-          <li>Si l'étape 1 n'est pas possible à un moment, se contenter de valider l'étape 3.</li>
-          <li>Revenir à l'étape 1.</li>     
+          <li>Je ferai en sorte de dé-stresser au maximum 😂🤣.</li>  
+          <li>Si l'étape 1 n'est pas possible à un moment donné, se contenter de valider l'étape 3.</li>
+          <li>Revenir à l'étape 1. </li>     
         </ul>
       </div>
     </div>

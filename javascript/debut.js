@@ -1,10 +1,21 @@
+function tirageAuSort(){
+
+}
+
+function clickEvent() {
+  alert("Who!! You have discovered");
+}
+
+
+
+
 var min=1; 
 var max=10;  
 var random = Math.floor(Math.random() * (max - min)) + min;
 
 let random = random;
 
-if(random = 1) {
+if (random = 1) {
   alert(un);
 } else if (random = 2){
   alert(deux);
