@@ -11,6 +11,7 @@ header{
 h4{
     font-weight: bold;
     text-decoration: grey wavy underline;
+    text-underline-position: under;
 }
 
 b{
