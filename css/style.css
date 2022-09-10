@@ -5,11 +5,12 @@ body{
 header{
     background-color:white;
     border: double;
-    border-radius: 0 120px 0 0;
+    border-radius: 5px 120px 5px 5px;
 }
 
 h4{
     font-weight: bold;
+    text-decoration: grey wavy underline;
 }
 
 b{
@@ -43,10 +44,12 @@ em{
 }
 
 img{
-    position: relative;
-    left: 25%;
-    width: 200px;
+    position: fixed;
+    top: 20%;
+    left: 80%;
+    width: 20%;
     height: auto;
+    transform: rotate(-15deg);
 }
 
 p:hover{                    /*pseudo-classe ':hover' active quelquechose au survol du paragraphe par la souris*/
@@ -55,8 +58,15 @@ p:hover{                    /*pseudo-classe ':hover' active quelquechose au surv
     text-align: center;
 }
 
+/*@media screen and (min-width: 800px) {                        je ne sais pas encore cacher l'image derrière la div 'charte de la promo' ...
+    .img {
+      position: relative;
+      width: 25%;
+    }
+  }                                                           Mise du bloc @media querry en commentaire pour la neutraliser/*
 
-/* phil ici -début-*/
+
+/* phil ici -début-
 
 
-/*phil fin -fin-*/
+phil fin -fin-/*
