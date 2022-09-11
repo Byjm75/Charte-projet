@@ -60,6 +60,8 @@ p:hover{                    /*pseudo-classe ':hover' active quelquechose au surv
     text-align: center;
 }
 
+
+
 /*@media screen and (min-width: 800px) {                        je ne sais pas encore cacher l'image derrière la div 'charte de la promo' ...
     .img {
       position: relative;

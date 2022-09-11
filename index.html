@@ -23,6 +23,7 @@
   <link rel="stylesheet" href="./css/skeleton.css">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="icon" href="images/favicon.png" />  <!--icone sur l'onglet de la page-->
+  <script src="./javascript/debut.js"> </script>
   
   <!-- Liaisons du fichier JS si vous faites le bonus
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -42,8 +43,9 @@
       ▶▶▶ Promo JustToDev - Prestation SIMPLON pour SNCF 2022 ◀◀◀
       </h4>
 
-      <p><b>[</b> <em>no pain</em>, ... no code <b>]</b></p>   <!-- Les crochets ont du style, cependant, a-t'on le droit de prendre des balises
-                                                               <b></b> ? -->
+      <p><b>[</b> <em>no pain</em>, ... no code <b>]</b></p>  <!-- Les crochets ont du style, cependant, a-t'on le droit de prendre des balises
+                                                              <b></b> ? -->
+                                <!--mise en action du javascript dès l'ouverture de page-->
     </div>
   </header>
 
@@ -53,6 +55,18 @@
   <div class="centrage"><img src="images/logosncf.png" titre="Ceci est notre premier Brief." alt="logo entreprise" /></div>
 
   <main class="container">
+
+  <!--TEST 1 ---
+    <script>alert(tirage)</script>      Affichage de la fonction tirage(), établie pour essai, désactivée                          -->
+  <!--TEST 2 ---
+    <script>alert(renduTirage())</script>   Test: OK --- Reste à créer un bouton pour activer la fonction renduTirage() ...
+  Utilisation des balises <input .../... />
+  --- ATTENTION : les balises <input .../... /> ne sont à mettre que dans les balises <form></form> ---
+  Le bouton est créé (en spécifiant type="button") avec l'action 'onClic' et le nom de la fonction renduTirage()   -->
+    <form>
+      <input type="button" value="Tirage au sort ..." onclick="alert(renduTirage())" />
+    </form>
+    
 
     <div class="row">
       <div class="column">
@@ -92,8 +106,11 @@
         <ul>
           <li>Je fais en sorte qu'il n'y ait pas de bruit parasite (téléphone en silencieux, écouteurs, tapotage de pied sur le sol, ...) <span>🤐</span>.</li>  
           <li>Je fais attention aux affaires des autres quand ils sont absents.</li>
-          <li>Je fais attention aux affaires des autres même quand ils là ... donc je fais attention tout le temps en fait 😁.</li>
-          <li>Je reste moi-même ... même quand ça ne va plus (que la zenitude soit avec toi 👌).</li>     
+          <li>Je fais attention aux affaires des autres même quand ils sont là ... donc je fais attention tout le temps en fait 😁.</li>
+          <li>Je reste moi-même ... même quand ça n'ira plus (que la zenitude soit avec toi, jeune padawan 👌).<br>
+          <blockquote>Le mot <em>padawan</em> désigne de manière divertissante une personne qui n'a pas ou peu d'expérience dans un domaine de
+             compétence mais qui est en cours d'acquisition de cette compétence. Autrement dit, ce mot est synonyme d' apprenti , de novice ,
+              de néophyte.</blockquote></li>     
         </ul>
       </div>
     </div>
