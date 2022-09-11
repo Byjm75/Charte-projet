@@ -7,11 +7,8 @@ header{
     border: double;
     border-radius: 5px 120px 5px 5px;
 }
-
-h4{
+h1, h4 {
     font-weight: bold;
-    text-decoration: grey wavy underline;
-    text-underline-position: under;
 }
 
 b{
@@ -36,12 +33,12 @@ em{
 }
 
 .row{
+    background-color: white;
     border: double;             /*les bords des cadres : double*/
     border-radius: 10px;        /*les coins sont arrondis*/
     width: 100%;                /*Largeur de la zone de texte*/
     margin: 1%;                 /*hauteur du cadre entourant la zone de texte*/
     padding: 5%;                /*hauteur du cadre par rapport au texte*/
-
 }
 
 img{
