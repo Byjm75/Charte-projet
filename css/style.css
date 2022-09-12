@@ -4,8 +4,13 @@ body{
 
 header{
     background-color:white;
-    border: simple;
     box-shadow: 10px 2px 2px rgba(0, 0, 0, 0.162);
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 h1, h4{
@@ -52,12 +57,9 @@ img{
     opacity: 0.5;
 }
 
-button{
-    position: absolute;
-    top: 50%;
+#buttonR{
+    text-align: center;
 }
-
-
 
 /*@media screen and (min-width: 800px) {                        je ne sais pas encore cacher l'image derrière la div 'charte de la promo' ...
     .img {
