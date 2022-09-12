@@ -12,7 +12,7 @@ header{
 }
 
 #premierTitre{
-    margin-top: 3em;
+    margin-top: 5em;
 }
 
 h1, h4{
@@ -35,6 +35,17 @@ blockquote{
     font-size: 0.7em;
 }
 
+button{
+    position: relative;
+    top: 1%;
+    left: 50%;
+    width: 20%;
+    height: auto;
+    background-color: red;
+    color: white;
+    
+}
+
 .row{
     background-color: white;
     border-style: none;
@@ -45,7 +56,7 @@ blockquote{
     padding: 5%;                /*hauteur du cadre par rapport au texte*/
 }
 
-img{
+/*img{
     position: fixed;
     top: 10%;
     left: 80%;
@@ -53,7 +64,7 @@ img{
     height: auto;
     transform: rotate(-15deg);
     opacity: 0.5;
-}
+}*/
 
 #buttonR{
     text-align: center;
