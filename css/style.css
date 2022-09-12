@@ -5,10 +5,10 @@ body{
 header{
     background-color:white;
     border: simple;
-    box-shadow: 10px 2px 2px rgba(0, 0, 0, 0.429);
+    box-shadow: 10px 2px 2px rgba(0, 0, 0, 0.162);
 }
 
-h1, h4 {
+h1, h4{
     font-weight: bold;
 }
 
@@ -37,7 +37,8 @@ blockquote{
     border-style: none;
     border-radius: 10px;      /*les coins sont arrondis*/
     width: 100%;                /*Largeur de la zone de texte*/
-    margin: 1%;                 /*hauteur du cadre entourant la zone de texte*/
+    margin: 1%; 
+    margin-left: 0%;                /*hauteur du cadre entourant la zone de texte*/
     padding: 5%;                /*hauteur du cadre par rapport au texte*/
 }
 
