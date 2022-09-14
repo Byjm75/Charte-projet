@@ -10,7 +10,6 @@ header{
     text-align: center;
     position: fixed;
     z-index:999;
-    
 }
 
 #premierTitre{
@@ -82,6 +81,7 @@ img{
     /*z-index: 999;*/
     width: 100%;
     background-color:white;
+    box-shadow: 2px 2px 2px 2px  rgba(0, 0, 13, 0.037); 
 }
 
 /*@media screen and (min-width: 800px) {                        je ne sais pas encore cacher l'image derrière la div 'charte de la promo' ...
