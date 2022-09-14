@@ -3,13 +3,14 @@ body{
 }
 
 header{
-    border: 1px solid;
-    margin: 100%;                   /* Modif essai d'enlever le bloc bug*/
+    /*border: 1px solid;*/
     padding: 4em;
-    background-color:rgb(250, 250, 250);
-    box-shadow: 10px 2px 2px rgba(0, 0, 0, 0.162);
+    /* background-color:rgb(250, 250, 250);
+    box-shadow: 10px 2px 2px rgba(0, 0, 0, 0.162); */
     text-align: center;
     position: fixed;
+    z-index:999;
+    
 }
 
 #premierTitre{
@@ -58,7 +59,7 @@ button{
     box-shadow: 2px 2px 2px 2px  rgba(0, 0, 13, 0.037); 
 }
 
-/*img{
+img{
     position: fixed;
     top: 10%;
     left: 80%;
@@ -66,7 +67,7 @@ button{
     height: auto;
     transform: rotate(-15deg);
     opacity: 0.5;
-}*/
+}
 
 #buttonR{
     text-align: center;
@@ -80,7 +81,7 @@ button{
     left: 0;
     /*z-index: 999;*/
     width: 100%;
-    
+    background-color:white;
 }
 
 /*@media screen and (min-width: 800px) {                        je ne sais pas encore cacher l'image derrière la div 'charte de la promo' ...
